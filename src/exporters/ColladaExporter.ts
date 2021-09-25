@@ -194,7 +194,7 @@ class ColladaExporter {
 
           return res
         })
-        .join('\n') ?? ''
+        .join('\n') || ''
     )
   }
 
